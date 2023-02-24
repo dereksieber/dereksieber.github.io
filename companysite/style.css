@@ -1,0 +1,88 @@
+body{
+	
+	
+	font-family: Roboto, san-serif;
+	font-size:28px;
+	background-color: #FFF;
+	margin:0;
+	padding:0;
+	font-weight: 400;
+	
+}
+.banner{
+	background-color: rgba(0,81,253,1.00);
+	width: 100%;
+	height:3vh;
+}
+.outer{
+	text-align: left;
+}
+ 
+.page{
+	margin-top:10px;
+	background-color: #FFF;
+	
+	width:100%;
+	height:99vh;
+	display: inline-block;
+}
+
+.topofpage{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	height:70px;
+	border-bottom: 1px solid rgba(228,228,228,1.00) ;
+}
+	.navbar{
+		background-color: white;
+		flex-grow: 1;
+		margin-bottom: 17px;
+		 }
+
+
+@media screen and (max-width: 1200px) {
+  .sign {
+    display: none;
+	  margin-right: 5%;
+	  margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sign {
+    display: block;
+	  margin-right: 5%;
+	  margin-bottom: 15px;
+  }
+}
+
+
+.logo{
+	background-color: white;
+	margin-left: 25px;
+	margin-right: 150px;
+	margin-bottom: 11px;
+}
+
+.info{
+	font-weight:600;
+	font-size: 20px;
+	text-align: center;
+	margin-top:100px;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 15px;
+	margin-right: 25px;
+	
+}
+
+a:hover{
+	color:rgba(0,81,253,1.00);
+}
