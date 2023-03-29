@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+		
+		 .page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background-color: #B9CC8D;
+		}
+		
+		img{
+			max-width:70%;
+			
+		}
+			
+			
+		
+     .my_filter{
+
+      -webkit-filter: contrast(0%) brightness(0%) saturate(0%) hue-rotate(0deg);
+  filter: contrast(50%) brightness(50%) saturate(50%) hue-rotate(0deg);
+		 
+
+	}
+
+    .my_filter:hover{
+
+      animation: 1s myfilteranimation forwards;
+    }
+
+     @keyframes myfilteranimation{
+      
+	      100%{
+	       -webkit-filter: contrast(150%) brightness(110%) saturate(150%) hue-rotate(-10deg);
+  filter: contrast(150%) brightness(110%) saturate(150%) hue-rotate(-10deg);
+
+	       }
+
+     }
+
+
+
+
+	</style>
+</head>
+<body>
+	
+<div class="page">
+<img class="my_filter" src="img/cat.jpg" alt="cat">
+	</div>
+
+</body>
+</html>
