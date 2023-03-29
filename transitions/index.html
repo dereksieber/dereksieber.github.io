@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions</title>
+
+   
+
+   <style>
+
+	   
+
+   	body{
+   		font-family: sans-serif;
+   		font-size:60px;
+   		color:white;
+   	}
+
+   	.cardholder{
+        text-align: center;
+
+   	}
+      
+    .card{
+    	position: relative;
+       background-color:white;
+       display: inline-block;
+    }
+
+    .card img{
+      width:100%;
+      height:auto;
+		
+		 -webkit-filter: grayscale(100%) blur(100px);
+         filter: grayscale(100%) blur(100px);
+		
+		transition: .5s -webkit-filter ease;
+		
+    }
+
+
+    .center {
+
+     padding: 13% 0;
+     text-align: center;
+    }
+
+
+   
+
+
+    .card:hover img{
+
+     -webkit-filter: grayscale(0%) blur(0px);
+         filter: grayscale(0%)blur(0px);
+ 
+    }
+
+    .card_text{
+    	margin:0;
+    }
+
+
+
+   </style>
+
+</head>
+<body>
+
+
+
+
+	<div class="cardholder">
+       <div class="card">
+       	  
+       	  <img src="img/treasure.jpeg" alt="treasure">
+       </div>
+	</div>
+
+</body>
+</html>
